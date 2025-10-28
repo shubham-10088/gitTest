@@ -7,7 +7,7 @@ on:
 jobs:
   dhondhuJob:
     name: dhondhu-Job
-    runs-on: dhondhu-Maharaj
+    runs-on: ramRam
     steps:
     - name: dhondhu_name_Rock!
-      run: echo Jai Bhaole Ki...
+      run: echo Jai Bhaole Ki
