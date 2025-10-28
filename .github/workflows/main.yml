@@ -2,8 +2,8 @@ name: dhondhu-maharaj
 on:  
   push:
     branches:
-      - "main"
-      -  "features/**"
+      - 'main'
+      -  'features/**'
 jobs:
   dhondhuJob:
     name: dhondhu-Job
