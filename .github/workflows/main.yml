@@ -1,0 +1,13 @@
+name: dhondhu-maharaj
+on:  
+  push:
+    branches:
+      - "main"
+      -  "features/**"
+jobs:
+  dhondhuJob:
+    name: dhondhu-Job
+    runs-on: dhondhu-pool
+    steps:
+    - name: dhondhu_name_Rock!
+      run: echo Jai Bhaole Ki...
