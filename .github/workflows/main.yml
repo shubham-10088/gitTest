@@ -11,3 +11,8 @@ jobs:
     steps:
     - name: dhondhu_name_Rock!
       run: echo Jai Bhaole Ki
+    - name: Install Terraform
+      uses: little-core-labs/install-terraform@v2.0.0
+      with:
+        version: 1.13.0
+          
