@@ -1,1 +1,10 @@
-
+name: ramJi
+on:
+  workflow_dispatch:
+jobs:
+  dhondhuJob:
+    name: dhondhu-Job
+    runs-on: ramRam
+    steps:
+    - name: dhondhu_name_Rock!
+      run: echo Jai Bhaole Ki
